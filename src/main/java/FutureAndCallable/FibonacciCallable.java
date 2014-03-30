@@ -24,6 +24,8 @@ public class FibonacciCallable implements Callable<Integer> {
     
     @Override
     public Integer call() throws Exception {
-        return fibo(n);
+        Integer ans = fibo(n);
+        System.out.println(ans);
+        return ans;
     }
 }

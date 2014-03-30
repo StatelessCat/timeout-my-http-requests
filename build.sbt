@@ -15,5 +15,7 @@ mainClass in (Compile, run) := Some( "FutureAndCallable.Main")
 
 libraryDependencies ++= Seq( 
     "junit" % "junit" % "4.10",
-    "com.novocode" % "junit-interface" % "0.10-M1" % "test"
-    )
+    "com.novocode" % "junit-interface" % "0.10-M1" % "test",
+    "commons-io" % "commons-io" % "2.3",
+    "com.ning" % "async-http-client" % "1.8.4"
+)
