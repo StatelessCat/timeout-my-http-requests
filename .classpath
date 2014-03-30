@@ -1,9 +1,13 @@
 <classpath>
-  <classpathentry kind="src" path="src/main/scala" output="target/scala-2.10/classes"/>
-  <classpathentry kind="src" path="src/main/java" output="target/scala-2.10/classes"/>
-  <classpathentry kind="src" path="src/test/scala" output="target/scala-2.10/test-classes"/>
-  <classpathentry kind="src" path="src/test/java" output="target/scala-2.10/test-classes"/>
-  <classpathentry kind="lib" path="/home/raphael/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.3.jar"/>
+  <classpathentry kind="src" path="src/main/scala" output="target/classes"/>
+  <classpathentry kind="src" path="src/main/java" output="target/classes"/>
+  <classpathentry kind="src" path="src/test/scala" output="target/test-classes"/>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes"/>
+  <classpathentry kind="lib" path="/home/raphael/.ivy2/cache/junit/junit/jars/junit-4.10.jar"/>
+  <classpathentry kind="lib" path="/home/raphael/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.1.jar"/>
+  <classpathentry kind="lib" path="/home/raphael/.ivy2/cache/com.novocode/junit-interface/jars/junit-interface-0.10-M1.jar"/>
+  <classpathentry kind="lib" path="/home/raphael/.ivy2/cache/junit/junit-dep/jars/junit-dep-4.10.jar"/>
+  <classpathentry kind="lib" path="/home/raphael/.ivy2/cache/org.scala-tools.testing/test-interface/jars/test-interface-0.5.jar"/>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
   <classpathentry kind="output" path="bin"/>
 </classpath>
